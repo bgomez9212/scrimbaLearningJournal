@@ -1,6 +1,8 @@
-import {defineConfig} from 'vite'
-
+import { defineConfig } from "vite";
 
 export default defineConfig({
-	plugins: []	
-})
+  base: "./", // Ensure the base path is correct for relative URLs
+  build: {
+    outDir: "dist", // The output directory for the build
+  },
+});
