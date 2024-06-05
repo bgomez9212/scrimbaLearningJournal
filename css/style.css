@@ -244,6 +244,20 @@ footer p {
   font-size: 2.178rem;
 }
 
+.fucking {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bullshit {
+  margin-left: 33px;
+}
+
+.inner-about-me {
+  margin: 65px 120px 51px;
+}
+
 .main-article .featured-article-text {
   color: #ffffff;
   font-size: 2rem;
