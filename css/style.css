@@ -150,7 +150,7 @@ header {
   order: -1;
 }
 
-.view-more,
+#view-more,
 #view-less {
   font-family: inherit;
   text-decoration: underline;
@@ -270,6 +270,11 @@ li a {
 #view-less,
 #view-more {
   cursor: pointer;
+  display: none;
+}
+
+.hidden {
+  display: block;
 }
 
 @media (max-width: 1140px) {
@@ -318,5 +323,9 @@ li a {
   }
   .hidden {
     display: none;
+  }
+  #view-more,
+  #view-less {
+    display: block;
   }
 }
