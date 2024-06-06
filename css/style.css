@@ -77,6 +77,10 @@ nav ul {
 
 /* typography */
 
+p {
+  line-height: 20.11px;
+}
+
 .title h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -244,13 +248,13 @@ footer p {
   font-size: 2.178rem;
 }
 
-.fucking {
+.about-me-header {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.bullshit {
+.about-me-text {
   margin-left: 33px;
 }
 
@@ -341,5 +345,15 @@ li a {
   #view-more,
   #view-less {
     display: block;
+  }
+  .about-me-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about-me-text {
+    margin: 0;
+  }
+  .inner-about-me {
+    margin: 0px;
   }
 }
